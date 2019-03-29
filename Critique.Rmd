@@ -9,22 +9,39 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+## Project #1: [NFL Quarterback Analysis](https://jpirrmann.shinyapps.io/NFL_Analysis/)
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+This project analyzes the year-to-year performance of four prominent NFL quarterbacks in relation to the strength of offensive line play. Offensive-line effectiveness is measured through the number of sacks or hits given up, while quarterback effectiveness is calculated through completion percentage, TDs, passing yards, and interceptions.
 
-```{r cars}
-summary(cars)
-```
+###Pros:
+-Each quarterback is color-coded, and there is a linear projection across the various yearly points, demonstrating good pattern recognition.
 
-## Including Plots
+-There are multiple variables for QB and OLine effectiveness, and each option is easy to access through the pull-down bar.
 
-You can also embed plots, for example:
+-Year by year performance can also be toggled, and the graphs/labels are clearly marked.
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+###Cons:
+-There lacks an option to isolate each quarterback's individual results.
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+-There is no conclusion or analysis of the data derived, and the descriptions are a bit simplistic for non-football enthusiasts.
+
+-The yearly labels are clear, but are much larger than the actual data points and make the charts appear too crowded. 
+
+## Project #2: [Analyzing Boston Marathon Race Times](https://clairehotchkin.shinyapps.io/final_project_app/)
+
+This project looks at finish time data from the Boston Marathon, comparing male and female differences particularly in race time improvement from 2001-2017. Do runners get faster on average over time?
+
+###Pros:
+-Averages are clearly calculated and represented in boxplot format, and it is easy to move through both the male and female times.
+
+-I enjoyed the manipulation on how many number of top finishers are shown, as this shows more complex, flexible coding.
+
+-The author draws strong conclusions and uses two graphs to represent the trend-line in terms of average race time across each year.
+
+###Cons:
+-A boxplot may not be the best way to represent averages, and it was challenging to see a larger year-to-year trend through this graphic selection.
+
+-More tests are needed(as indicated) to see if the differences between male and female finish times are actually statistically significant.
+
+-While the conclusions tab is side to side, it would be also easier to visualize male and female in the data tab if it was also side to side.
